@@ -4,9 +4,11 @@ import path from "path";
 import { componentTagger } from "@codepup/tagger";
 import { codepupPreview } from "@codepup/iframe-router/vite";
 import { codepupElementSelector } from "@adimadur2/preview";
+import { codepupSourceInjector } from "@adimadur2/preview";
 
 export default defineConfig(({ mode }) => ({
   plugins: [
+    codepupSourceInjector(),
     react(),
     // inject CodePup badge (dev only); switch to componentTagger({ apply: "both" }) for prod too
     componentTagger({ apply: "both" }),
