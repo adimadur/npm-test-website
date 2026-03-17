@@ -94,7 +94,7 @@
     "zustand": "^4.5.0"
   },
   "devDependencies": {
-    "@adimadur2/preview": "^0.1.7",
+    "@adimadur2/preview": "^0.1.8",
     "@codepup/tagger": "^2.0.4",
     "@eslint/js": "^9.9.0",
     "@tailwindcss/aspect-ratio": "^0.4.2",
