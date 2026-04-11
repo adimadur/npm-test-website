@@ -21,7 +21,7 @@
     "postinstall": "test -d patches && patch-package || echo \"no patches to apply\""
   },
   "dependencies": {
-    "@codepup/iframe-router": "^1.0.0",
+    "@codepup/iframe-router": "^2.0.1",
     "@hookform/resolvers": "^3.9.0",
     "@radix-ui/react-accordion": "^1.2.0",
     "@radix-ui/react-alert-dialog": "^1.1.1",
@@ -94,7 +94,6 @@
     "zustand": "^4.5.0"
   },
   "devDependencies": {
-    "@adimadur2/preview": "^0.2.5",
     "@codepup/tagger": "^2.0.4",
     "@eslint/js": "^9.9.0",
     "@tailwindcss/aspect-ratio": "^0.4.2",

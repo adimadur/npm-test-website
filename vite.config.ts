@@ -2,9 +2,7 @@ import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react-swc";
 import path from "path";
 import { componentTagger } from "@codepup/tagger";
-import { codepupPreview } from "@codepup/iframe-router";
-import { codepupElementSelector } from "@adimadur2/preview";
-import { codepupSourceInjector } from "@adimadur2/preview";
+import { codepupPreview, codepupElementSelector, codepupSourceInjector } from "@codepup/iframe-router";
 
 export default defineConfig(({ mode }) => ({
   plugins: [
